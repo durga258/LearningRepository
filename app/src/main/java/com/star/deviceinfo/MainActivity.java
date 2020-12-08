@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         tv1.setText(System.getProperty("os.version"));
       //  tv2.setText(Build.VERSION.SDK);
        // tv3.setText(android.os.Build.DEVICE);
-       // tv4.setText(android.os.Build.MODEL+","+ Settings.Global.getString(getContentResolver(), Settings.Global.DEVICE_NAME));
+       // tv4.setText(android.os.Build.MODEL+",extra "+ Settings.Global.getString(getContentResolver(), Settings.Global.DEVICE_NAME));
       //  tv5.setText(Build.MODEL+", "+Build.BRAND+", "+Build.VERSION.SDK+", "+Build.DEVICE);
         tv5.setText(details);
 
